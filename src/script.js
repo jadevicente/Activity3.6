@@ -76,7 +76,7 @@ const gltfLoader = new GLTFLoader()
 let model = null
 
 gltfLoader.load(
-    '/models/Duck/glTF-Binary/Duck.glb',
+    './models/Duck/glTF-Binary/Duck.glb',
     (gltf) => {
         model = gltf.scene
         model.position.y = -1.2
